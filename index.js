@@ -47,3 +47,31 @@ if (xpHeroi <= 1000){
     nivel = "Radiante"
     console.log("O Herói de nome " + nomeHeroi + " está no nível de " + nivel)
 }
+
+//TENTATIVA MELHORADA
+
+console.log("----- ABAIXO A TENTATIVA MELHORADA")
+
+let nameHeroi = "Fabio"
+let xpHero = 9001
+let nivelHeroi = ""
+
+if (xpHeroi <= 1000){
+    nivelHeroi = "Ferro"
+}else if (xpHero <=2000){
+    nivelHeroi = "Bronze"
+}else if (xpHero <=5000){
+    nivelHeroi = "Prata"
+}else if (xpHero <=7000){
+    nivelHeroi = "Ouro"
+}else if (xpHero <=8000){
+    nivelHeroi = "Platina"
+}else if (xpHero <=9000){
+    nivelHeroi = "Ascendente"
+}else if (xpHero <=10000){
+    nivelHeroi = "Imortal"
+}else if (xpHero >=10001){
+    nivelHeroi = "Radiante"
+}
+
+console.log("O Herói de nome " + nameHeroi + " está no nível de " + nivelHeroi)
