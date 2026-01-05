@@ -1,2 +1,1 @@
-adfasdf
 console.log("Olá")
